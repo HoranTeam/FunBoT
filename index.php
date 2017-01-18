@@ -40,7 +40,7 @@ if(preg_match('/^\/([Ss]tart)/',$text)){
 roonx('sendMessage',[
     'chat_id'=>$chat_id,
     'text'=>"$textstart
-ای دی کانال ما:
+ای دی کانال ما: @HoranTeam
 $textchannel",
     'parse_mode'=>'html',
    'reply_markup'=>json_encode([
@@ -306,5 +306,5 @@ $user = file_get_contents('Member.txt');
      file_put_contents('Member.txt',$add_user);
     }
 
-//@Roonx_Team
+//@HoranTeam
 	?>
