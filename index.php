@@ -1,5 +1,5 @@
-<?php /* Telegram Channel: @NorbertTeam
-@Roonx_Team */
+<?php /* Telegram Channel: @HoranTeam
+@Horan_Bots */
 define('API_KEY','توکن');
 $admin =  "ای دی عددی";
 $update = json_decode(file_get_contents('php://input'));
